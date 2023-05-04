@@ -1,0 +1,27 @@
+{
+    "name": "astronphp/http",
+    "description": "http request and response solutions",
+    "type": "library",
+    "require": {
+        "php":"^7.0",
+        "astronphp/collection": "^0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6",
+        "php-coveralls/php-coveralls": "^2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "astronphp"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Astronphp\\Http\\": [
+                "src/",
+                "tests/"
+            ]
+        }
+    }
+}
